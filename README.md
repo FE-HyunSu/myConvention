@@ -13,20 +13,24 @@
 
 #### 📝 컴포넌트 폴더구조
 ```
--[components] // 컴포넌트 폴더
-  ㄴ[{pageName}] // 페이지
-    ㄴ[item] // 영역
-     ㄴ index.tsx // 구조 or 기능
-     ㄴ style.tsx // UI
-    ㄴ[list]
-     ㄴ index.tsx
-     ㄴ style.tsx
-  ㄴ[layout]
-    ㄴ[header]
-      ㄴ index.tsx
-      ㄴ style.tsx
-    ㄴ[footer]
-      ㄴ index.tsx
-      ㄴ style.tsx
+├── components // 컴포넌트 폴더
+│   ├── {pagaName} // 페이지
+│   │   ├── {areaName} // 영역
+│   │   │   ├── index.tsx // 레이아웃 or 기능
+│   │   │   └── style.tsx // UI
+│   │   └── {areaName}
+│   │       ├── index.tsx 
+│   │       └── style.tsx 
+│   └── layout
+│       ├── header
+│       │   ├── index.tsx
+│       │   └── style.tsx
+│       └── footer
+│           ├── index.tsx 
+│           └── style.tsx 
 ...
 ```
+
+#### 🪡 Git 
+- main 브랜치에서 직접 작업 commit 금지.
+- main push 후 merge feature는 삭제할 것.
