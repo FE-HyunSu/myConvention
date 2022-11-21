@@ -29,7 +29,8 @@
 
 #### 🪡 Git 
 - main 브랜치에서 직접 작업 commit 금지.
-- main push 후 merge feature는 삭제할 것.
+- feature에서 main 브랜치까지 직접적으로 merge하지 말것. 반드시 release 브랜치를 통해 merge.
+- main 브랜치까지 push 후 merge된 feature는 삭제할 것.
 
 
 #### 🤹‍♂️ Prettier set
@@ -61,3 +62,4 @@
   "editor.formatOnSave": true
 }
 ```
+
