@@ -30,3 +30,34 @@
 #### 🪡 Git 
 - main 브랜치에서 직접 작업 commit 금지.
 - main push 후 merge feature는 삭제할 것.
+
+
+#### 🤹‍♂️ Prettier set
+
+```
+{
+  "editor.fontSize": 15,
+  "debug.console.fontSize": 15,
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.automationShell.osx": "",
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "editor.minimap.enabled": false,
+  "prettier.printWidth": 100,
+  "prettier.tabWidth": 2,
+  "prettier.singleQuote": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "prettier.jsxSingleQuote": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Community Material Theme Darker High Contrast",
+  "vsicons.dontShowNewVersionMessage": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "diffEditor.wordWrap": "off",
+  "explorer.confirmDragAndDrop": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.guides.indentation": false,
+  "editor.formatOnSave": true
+}
+```
