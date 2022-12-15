@@ -25,6 +25,8 @@
 │       └── footer
 │           ├── index.tsx 
 │           └── style.tsx 
+├── store
+├── api
 ...
 ```
 
@@ -55,3 +57,9 @@
   "prettier.printWidth": 120
 }
 ```
+
+#### 🔪 Recoil Naming convention.
+
+- Atom : keywordAtom
+- Value : recoilKeyword
+- State : isKeywordAtom, setKeywordAtom
